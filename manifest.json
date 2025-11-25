@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "locale": "C.UTF-8",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "main"
+  },
+  "python": {
+    "version": "3.12.11",
+    "package_manager": {
+      "name": "pip",
+      "version": "25.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "environment": {
+    "python": {
+      "requires": "~=3.12.0"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "be2ae56cce43ecec3eb7b0ed29ac516a"
+    },
+    ".python-version": {
+      "checksum": "61939823fbcc7e8de3b61ab105331baf"
+    },
+    "README.md": {
+      "checksum": "08daf2a150667db1b1a5826be8b87bf5"
+    },
+    "main.py": {
+      "checksum": "f71468b27129849585ccdaf994be010f"
+    },
+    "pyproject.toml": {
+      "checksum": "245cabce2cd71b93845afedeb93703e4"
+    },
+    "streamlit_app.py": {
+      "checksum": "ed74298be8696b8a95819b0202fde374"
+    },
+    "uv.lock": {
+      "checksum": "b673b65f7375752f2f2c91ff6605a8b8"
+    }
+  }
+}
