@@ -2,8 +2,8 @@
   "version": 1,
   "locale": "C.UTF-8",
   "metadata": {
-    "appmode": "python-shiny",
-    "entrypoint": "main"
+    "appmode": "python-streamlit",
+    "entrypoint": "streamlit_app"
   },
   "python": {
     "version": "3.12.11",
@@ -27,9 +27,6 @@
     },
     "README.md": {
       "checksum": "08daf2a150667db1b1a5826be8b87bf5"
-    },
-    "main.py": {
-      "checksum": "f71468b27129849585ccdaf994be010f"
     },
     "pyproject.toml": {
       "checksum": "245cabce2cd71b93845afedeb93703e4"
